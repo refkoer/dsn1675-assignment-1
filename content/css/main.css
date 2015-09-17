@@ -7,3 +7,84 @@ html {
   box-sizing: inherit;
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+ 	width:100%;
+ 	margin: 0;
+ 	padding: 0; 
+}
+
+.logo{
+	position: absolute;
+	width: 15%;
+	top: 0rem;
+}
+
+.buy-logo{
+	background: #6B0000;
+	color: white;
+	text-align: center;
+	float: right;
+
+}
+h1{
+	font-size: 17pt;
+	text-align: center;
+	top: 1rem;
+	margin: 0;
+	padding: 0;
+}
+
+ol{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+li,a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+
+}
+
+.topnav a{
+	background-color: #6B0000;
+	margin: 0;
+	font-style: none;
+	color: white;
+	padding: 0;
+}
+
+
+.figcap{
+	position: absolute;
+	z-index: 1;
+}
+
+.marten{
+	position: relative;
+	color: white;
+	z-index: 3;
+	text-align: center;
+	top: 7rem;
+	margin: 0;
+}
+
+.martentwo{
+	position: relative;
+	color: white;
+	z-index: 2;
+	text-align: center;
+	margin: 0;
+	top: 7rem;
+}
+
+div{
+	text-align: center;
+	background-color: #6B0000;
+	color: white;
+}
