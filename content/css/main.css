@@ -72,14 +72,17 @@ div{
 	text-align: center;
 }
 
-.topnav{
-	position: relative;
+.orignav{
 	background-color: #6B0000;
-	margin: 0;
+	padding: 10px;
+
+}
+.topnav{
+	text-align: center;
+	background-color: #6B0000;
+	margin: 1.5px;
 	font-style: none;
 	color: white;
-	padding: 0;
-
 }
 
 
@@ -120,19 +123,33 @@ dt{
 h3{
 	text-align: center;
 }
-.tickets-one{
-	float: left;
-}
 
 .tickets{
+	position: relative;
+	background-color: #6B0000;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	left: 2rem;
+}
+
+.tickets-2{
+	position: relative;
+	background-color: #6B0000;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	padding: 10px;
 	float: right;
+	right: 2rem;
 }
 
 .play{
 	background-color: #6B0000;
 	padding: 10px;
 	color: white;
-	margin:0;
+	margin-top: 10px;
 }
 .maroti{
 	width: 100%;
@@ -154,4 +171,8 @@ h3{
 	color:white;
 	padding: 10px;
 	top: -6rem;
+}
+
+.botnav{
+ 	display: inline; 
 }
