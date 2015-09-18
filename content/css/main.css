@@ -12,6 +12,13 @@ body{
 	padding: 0;
 }
 
+.buy{
+	position: relative;
+	float: right;
+	background-color: pink;
+	padding: 4px;
+	top: -1.3rem;
+}
 .banner{
  	width:100%;
  	bottom: 20rem;
@@ -20,13 +27,14 @@ body{
 .wonders{
 	position: relative;
 	width: 100%;
+	margin: 10px;
 
 }
 
 .logo{
-	position: absolute;
+	position: relative;
 	width: 15%;
-	top: 0rem;
+	top: -1.5rem;
 }
 
 .buy-logo{
@@ -40,64 +48,110 @@ h1{
 	position: relative;
 	font-size: 17pt;
 	text-align: center;
-	top: 0rem;
+	top: .5rem;
 	margin: 0;
 	padding: 0;
 }
 
 ol{
-	margin: 0;
 	padding: 0;
+	display: inline-block;
+	margin: 0;
+}
+
+h2{
 	text-align: center;
 }
 li,a{
 	text-decoration: none;
 	display: inline-block;
-	color: black;
-
+	color:black;
 }
 
-h2, h3, h4{
+div{
 	text-align: center;
 }
-.topnav a{
+
+.topnav{
 	position: relative;
 	background-color: #6B0000;
 	margin: 0;
 	font-style: none;
 	color: white;
 	padding: 0;
+
 }
 
 
 .marten{
 	position: relative;
-	color: black;
+	color: white;
 	z-index: 3;
 	text-align: center;
 	margin: 0;
+	top:-7rem;
 }
 
 .martentwo{
 	position: relative;
 	z-index: 2;
+	color: white;
 	text-align: center;
 	margin: 0;
+	top: -7rem;
 }
 
-div{
+.button{
+	position: relative;
 	text-align: center;
 	background-color: #6B0000;
 	color: white;
 	margin: 0;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+dt{
+	text-align: left;
 }
 
 
-
+h3{
+	text-align: center;
+}
 .tickets-one{
 	float: left;
 }
 
 .tickets{
 	float: right;
+}
+
+.play{
+	background-color: #6B0000;
+	padding: 10px;
+	color: white;
+	margin:0;
+}
+.maroti{
+	width: 100%;
+	position: relative;
+}
+
+.marotitext{
+	position: relative;
+	text-align: center;
+	top: -7rem;
+	margin:0;
+	color: white;
+}
+
+.shows{
+	position: relative;
+	text-align: center;
+	background-color: #6B0000;
+	color:white;
+	padding: 10px;
+	top: -6rem;
 }
