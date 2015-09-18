@@ -78,13 +78,18 @@ div{
 
 }
 .topnav{
-	text-align: center;
 	background-color: #6B0000;
 	margin: 1.5px;
 	font-style: none;
 	color: white;
 }
 
+.seven{
+	position: relative;
+	top:-3rem;
+	padding: 0;
+	margin: 0;
+}
 
 .marten{
 	position: relative;
