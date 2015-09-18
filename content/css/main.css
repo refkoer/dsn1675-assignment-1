@@ -12,10 +12,15 @@ body{
 	padding: 0;
 }
 
-img{
+.banner{
  	width:100%;
- 	margin: 0;
- 	padding: 0; 
+ 	bottom: 20rem;
+}
+
+.wonders{
+	position: relative;
+	width: 100%;
+
 }
 
 .logo{
@@ -32,9 +37,10 @@ img{
 
 }
 h1{
+	position: relative;
 	font-size: 17pt;
 	text-align: center;
-	top: 1rem;
+	top: 0rem;
 	margin: 0;
 	padding: 0;
 }
@@ -51,7 +57,11 @@ li,a{
 
 }
 
+h2, h3, h4{
+	text-align: center;
+}
 .topnav a{
+	position: relative;
 	background-color: #6B0000;
 	margin: 0;
 	font-style: none;
@@ -60,31 +70,34 @@ li,a{
 }
 
 
-.figcap{
-	position: absolute;
-	z-index: 1;
-}
-
 .marten{
 	position: relative;
-	color: white;
+	color: black;
 	z-index: 3;
 	text-align: center;
-	top: 7rem;
 	margin: 0;
 }
 
 .martentwo{
 	position: relative;
-	color: white;
 	z-index: 2;
 	text-align: center;
 	margin: 0;
-	top: 7rem;
 }
 
 div{
 	text-align: center;
 	background-color: #6B0000;
 	color: white;
+	margin: 0;
+}
+
+
+
+.tickets-one{
+	float: left;
+}
+
+.tickets{
+	float: right;
 }
