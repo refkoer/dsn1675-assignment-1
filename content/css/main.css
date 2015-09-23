@@ -12,6 +12,8 @@ body{
 	padding: 0;
 }
 
+
+
 .buy{
 	position: relative;
 	float: right;
@@ -27,8 +29,7 @@ body{
 .wonders{
 	position: relative;
 	width: 100%;
-	margin: 10px;
-
+	margin-top: 15px;
 }
 
 .logo{
@@ -179,5 +180,7 @@ h3{
 }
 
 .botnav{
- 	display: inline; 
+ 	display: inline;
+ 	color: #6B0000;
 }
+
