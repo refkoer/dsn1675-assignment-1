@@ -217,6 +217,11 @@ aside{
 	.marten .martentwo{
 		width: 24%;
 	}
+
+	p{
+		text-align: center;
+	}
+
 }
 
 @media only screen and (min-width: 43em){
