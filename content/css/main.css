@@ -199,8 +199,12 @@ aside{
 	nav ol li{
 		display: inline-block;
 		width: 24%;
+	}
 
-		}
+		html{
+		font-size: 110%;
+		line-height: 1.4;
+	}
 
 	.orignav{
 		font-size: 20px;
@@ -236,8 +240,42 @@ aside{
 		width: 5%;
 	}
 
+		html{
+		font-size: 120%;
+		line-height: 1.5;
+	}
+
 
 }
 
+@media only screen and (min-width: 60;){
+
+	html{
+		font-size: 130%;
+		line-height: 1.6;
+	}
+}
+
+@media only screen and	(min-width: 90;){
+
+		html{
+		font-size: 140%;
+		line-height: 1.7;
+	}
+}
 
 
+@media print{
+
+	nav{
+		display: none;
+	}
+
+		main, a::after {
+		content: " (" attr(href) ") ";
+	}
+
+	span{
+		display: none;
+	}
+}
