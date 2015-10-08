@@ -69,6 +69,10 @@ ol{
 	margin: 0;
 }
 
+ul{
+	padding: 0;
+}
+
 .orignav{
 	background-color: #6B0000;
 	padding-top: 10px;
@@ -131,10 +135,6 @@ h3{
 	text-align: center;
 }
 
-ul{
-	padding-left: 0;
-
-}
 
 .tickets{
 	position: relative;
@@ -221,10 +221,6 @@ aside{
 
 	.marten .martentwo{
 		width: 24%;
-	}
-
-	p{
-		text-align: center;
 	}
 
 }
